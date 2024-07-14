@@ -4,7 +4,7 @@ import fs, { unlink, unlinkSync } from'fs'
 cloudinary.config({
     cloud_name:process.env.CLOUDINARY_CLOUD_NAME,
     api_key:process.env.CLOUDINARY_APIKEY,
-    api_secret:CLOUDINARY_SECRET
+    api_secret:process.env.CLOUDINARY_SECRET
 });
 
 
